@@ -4,7 +4,16 @@ $white: #f6f6f6;
 $white2: #f0f0f0;
 $body: #252d28;
 $accent1: #9e832f;
+$accent2: #478572;
 $action: #a36580;
+
+* {
+	box-sizing: border-box;
+
+	*:before, *:after {
+		box-sizing: inherit;
+	}
+}
 
 html {
 	font-size: 18px;
@@ -17,6 +26,7 @@ body {
 	font-family: 'Vollkorn', serif;
 	color: $body;
 	position: relative;
+	box-shadow: inset 0 0 5rem rgba(104, 56, 0, 0.35);
 
 	&:after {
 		position: absolute;
@@ -33,10 +43,19 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Indie Flower', serif;
 	margin: 0 0 1rem 0;
 	color: $accent1;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+	line-height: 1;
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
 }
 
 h1 {
@@ -44,8 +63,19 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-size: 3rem;
+}
+
 a {
 	color: $action;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+	display: inline-block;
+
+	&:hover {
+		transform: translate(2px, 2px);
+		text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+	}
 }
 
 header[role="banner"] {
@@ -57,10 +87,6 @@ header[role="banner"] {
 		max-width: 240px;
 		margin-top: -20px;
 		transform: rotate(-5deg);
-
-		&:hover {
-			animation: spin 3s linear 300ms infinite;
-		}
 	}
 }
 
@@ -83,7 +109,7 @@ nav[role="navigation"] {
 		li {
 			flex: 1;
 			font-family: 'Indie Flower', cursive;
-			padding-top: 1.25rem;
+			padding-top: 1rem;
 
 			&:nth-of-type(2n + 1) {
 				transform: rotate(2deg);
@@ -99,12 +125,9 @@ nav[role="navigation"] {
 				font-size: 1.75rem;
 				color: $white;
 				text-decoration: none;
-				text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 
 				&:hover {
 					color: $white2;
-					transform: translate(2px, 2px);
-					text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
 				}
 			}
 		}
@@ -122,6 +145,7 @@ main {
 	.full-width {
 		position: relative;
 		background-color: #c3cad1;
+		margin: 2rem 0;
 
 		&:before {
 			position: absolute;
@@ -145,7 +169,13 @@ main {
 		& > div {
 			margin: 0 auto;
 			max-width: 960px;
-			padding: 45px 2rem;
+			padding: 4rem 2rem;
+			display: flex;
+
+			article {
+				flex: 1;
+				margin: 1rem;
+			}
 		}
 	}
 
@@ -154,11 +184,39 @@ main {
 	}
 }
 
-@keyframes spin {
-	from {
-		transform: rotate(-5deg);
+footer {
+	min-height: 215px;
+	max-width: 960px;
+	background-image: url(../img/postit.svg);
+	background-repeat: no-repeat;
+	margin: 2rem auto 0 auto;
+	padding: 2rem;
+	color: #6F582A;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+	display: flex;
+	align-items: flex-end;
+	font-family: 'Indie Flower', serif;
+	font-size: 1.25rem;
+
+	span {
+		display: block;
 	}
-	to {
-		transform: rotate(355deg);
+
+	p {
+		flex: 1;
+		margin: 0;
+		transform: rotate(-1deg);
+	}
+
+	address {
+		flex: 1;
+		margin: 0;
+		text-align: right;
+		font-style: normal;
+		transform: rotate(1deg);
+	}
+
+	a {
+		color: #6F582A;
 	}
 }
