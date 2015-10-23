@@ -11,8 +11,8 @@
             <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
             <stop stop-color="#808080" stop-opacity="0.499971694" offset="100%"></stop>
         </linearGradient>
-        <linearGradient x1="100%" y1="44.5973545%" x2="83.8611779%" y2="44.5973545%" id="linearGradient-3">
-            <stop stop-color="#000000" stop-opacity="0.152456975" offset="0%"></stop>
+        <linearGradient x1="100%" y1="44.5973545%" x2="89.1490843%" y2="44.5973545%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0.1" offset="0%"></stop>
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
         </linearGradient>
         <rect id="path-4" x="9.55859375" y="25" width="332.076287" height="190"></rect>
@@ -38,16 +38,16 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <path d="M10.7805195,26 L326.037358,25 L633.962642,15 L947.997555,25 L950.441406,205 L633.962642,194 L327.259284,214 L9.55859375,215 L10.7805195,26 Z" id="Shadow" fill-opacity="0.149999991" fill="#000000" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
         <g id="Left-Sheet">
-            <use fill="#D7AE19" sketch:type="MSShapeGroup" xlink:href="#path-4"></use>
+            <use fill="#F3DE91" sketch:type="MSShapeGroup" xlink:href="#path-4"></use>
             <use fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
             <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
         </g>
         <g id="Middle-Sheet">
-            <use fill="#B39115" sketch:type="MSShapeGroup" xlink:href="#path-6"></use>
+            <use fill="#E6D28A" sketch:type="MSShapeGroup" xlink:href="#path-6"></use>
             <use fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
         </g>
         <g id="Right-Sheet">
-            <use fill="#C9A318" sketch:type="MSShapeGroup" xlink:href="#path-10"></use>
+            <use fill="#EBD892" sketch:type="MSShapeGroup" xlink:href="#path-10"></use>
             <use fill="url(#linearGradient-7)" xlink:href="#path-10"></use>
             <use fill="url(#linearGradient-8)" xlink:href="#path-10"></use>
             <use fill="url(#linearGradient-9)" xlink:href="#path-10"></use>

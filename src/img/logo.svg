@@ -35,8 +35,8 @@
         </linearGradient>
         <path id="path-10" d="M250,10 L500,0 L490,250 L250,250 L250,10 Z"></path>
         <linearGradient x1="0%" y1="0%" x2="50%" y2="100%" id="linearGradient-11">
-            <stop stop-color="#FFFFFF" stop-opacity="0.50317029" offset="0%"></stop>
-            <stop stop-color="#7F7F7F" stop-opacity="0.5" offset="100%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.5" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="50%" y1="84.178125%" x2="50%" y2="100%" id="linearGradient-12">
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
@@ -48,22 +48,22 @@
         <path d="M35,275 L15,15 L275,35 L535,15 L515,275 L535,535 L275,515 L15,535 L35,275 Z" id="Shadow" fill-opacity="0.200000003" fill="#333333" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
         <g id="Paper-1" sketch:type="MSLayerGroup" transform="translate(15.000000, 15.000000)">
             <g id="Rectangle-1-Copy-4">
-                <use fill="#65A37F" sketch:type="MSShapeGroup" xlink:href="#path-4"></use>
+                <use fill="#618F70" sketch:type="MSShapeGroup" xlink:href="#path-4"></use>
                 <use fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
                 <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
             </g>
             <g id="Rectangle-1-Copy-3">
-                <use fill="#65A37F" sketch:type="MSShapeGroup" xlink:href="#path-7"></use>
+                <use fill="#618F70" sketch:type="MSShapeGroup" xlink:href="#path-7"></use>
                 <use fill="url(#linearGradient-5)" xlink:href="#path-7"></use>
                 <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
             </g>
             <g id="Rectangle-1-Copy">
-                <use fill="#65A37F" sketch:type="MSShapeGroup" xlink:href="#path-10"></use>
+                <use fill="#618F70" sketch:type="MSShapeGroup" xlink:href="#path-10"></use>
                 <use fill="url(#linearGradient-8)" xlink:href="#path-10"></use>
                 <use fill="url(#linearGradient-9)" xlink:href="#path-10"></use>
             </g>
             <g id="Rectangle-1-Copy-2">
-                <use fill="#65A37F" sketch:type="MSShapeGroup" xlink:href="#path-13"></use>
+                <use fill="#618F70" sketch:type="MSShapeGroup" xlink:href="#path-13"></use>
                 <use fill="url(#linearGradient-11)" xlink:href="#path-13"></use>
                 <use fill="url(#linearGradient-12)" xlink:href="#path-13"></use>
             </g>
