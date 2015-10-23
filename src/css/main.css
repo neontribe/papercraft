@@ -225,6 +225,8 @@ footer {
 	max-width: 960px;
 	background-image: url(../img/postit.svg);
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
 	margin: 2rem auto 0 auto;
 	padding: 2rem;
 	color: #6F582A;
@@ -254,5 +256,94 @@ footer {
 
 	a {
 		color: #6F582A;
+	}
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 700px) {
+	header[role="banner"] {
+		display: block;
+
+		& > a {
+			display: block;
+			text-align: center;
+		}
+
+		nav[role="navigation"] ul {
+			margin: auto;
+
+			li {
+				padding-top: 1.25rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	header[role="banner"] {
+		img {
+			max-width: 180px;
+		}
+
+		nav[role="navigation"] ul {
+			padding: 0 1rem;
+			min-height: 125px;
+
+			li {
+				padding-top: 1.25rem;
+
+				a {
+					padding: 0.5rem;
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+
+	main {
+		.full-width {
+			& > div {
+				display: block;
+			}
+		}
+
+		.two-col {
+			display: block;
+		}
+	}
+}
+
+@media (max-width: 370px) {
+	header[role="banner"] {
+		display: flex;
+		margin-bottom: 1rem;
+
+		& > a {
+			display: inline-block;
+		}
+
+		nav[role="navigation"] {
+			ul {
+				background-image: none;
+				min-height: auto;
+				flex-direction: column;
+				align-items: flex-end;
+
+				li {
+					padding-top: 0;
+
+					a {
+						color: $action;
+						font-size: 1.75rem;
+						padding: 0.5rem 0 0 0;
+					}
+				}
+			}
+		}
 	}
 }
